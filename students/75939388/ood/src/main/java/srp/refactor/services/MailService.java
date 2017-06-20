@@ -53,7 +53,7 @@ public class MailService {
      * 发送邮件客户端的功能和责任，所以移入邮件客户端，但是只能被基础客户端调用
      * 子类只能通过batchSend来发送邮件
      */
-    public void sendEmail(String toAddress, String fromAddress, String subject,
+    private void sendEmail(String toAddress, String fromAddress, String subject,
                            String message, String smtpHost, boolean debug) {
         //假装发了一封邮件
         StringBuilder buffer = new StringBuilder();
