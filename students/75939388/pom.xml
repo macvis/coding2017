@@ -6,6 +6,7 @@
 
     <groupId>learning2017</groupId>
     <artifactId>season2</artifactId>
+    <packaging>pom</packaging>
     <version>2.0-SEASON2</version>
 
     <modules>
@@ -13,6 +14,9 @@
         <module>datastrure</module>
         <!-- 面向对象设计 -->
         <module>ood</module>
+        <module>knowledge_point</module>
+        <!-- 知识点 -->
+        <module>knowledge_point</module>
     </modules>
 
     <url>https://github.com/macvis/coding2017</url>
